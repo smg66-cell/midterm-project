@@ -62,7 +62,7 @@ if __name__ == "__main__":
 
     input_filename = sys.argv[1]
     output_filename_customers = 'customers.json'
-    output_filename_items = 'items1.json'
+    output_filename_items = 'items.json'
     extract_customers_items(input_filename,output_filename_customers,output_filename_items)
     
    
