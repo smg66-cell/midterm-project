@@ -48,11 +48,11 @@ Logic:
      If item already exists: Increments the order count
    Assuming price is consistent
 
-4) Write Output
+4) Write Output: 
    Save customers dictionary to JSON file
    Save items dictionary to JSON file
 
-4) Error Handling
+4) Error Handling: 
    Catches file not found errors
 
 How to Use it:
