@@ -9,7 +9,7 @@ Output: Two JSON files: customers.json and items.json
 How It Is Designed
 Architecture
 Read Orders → Process Data → Write Output Files
-Function: extract_customers()
+Function: extract_customers_items()
 Arguments:
 
 input_filename - File to process data from
@@ -50,7 +50,6 @@ Phone number not already recorded (prevents duplicates)
 
 For each order, loops through the items array
 For each item:
-
 If first time seeing this item: Creates a new entry with price and order count of 1
 If item already exists: Increments the order count
 
